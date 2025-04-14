@@ -1,3 +1,4 @@
+
 # Z-Transform and Inverse Z-Transform Graph Plot Maker
 
 ## Overview
@@ -22,52 +23,50 @@ You can install the required dependencies using `pip`:
 
 ```bash
 pip install matplotlib numpy sympy
+```
 
-How to Run
-Clone this repository to your local machine:
+## How to Run
+1. Clone this repository to your local machine:
 
-bash
-Copy
-Edit
-git clone https://github.com/CertifiedSomebody/Z-Transform-and-Inverse-Z-Transform-Graph-Plot-Maker.git
-Navigate to the project directory:
+   ```bash
+   git clone https://github.com/CertifiedSomebody/Z-Transform-and-Inverse-Z-Transform-Graph-Plot-Maker.git
+   ```
 
-bash
-Copy
-Edit
-cd Z-Transform-and-Inverse-Z-Transform-Graph-Plot-Maker
-Run the Python script:
+2. Navigate to the project directory:
 
-bash
-Copy
-Edit
-python z_transform_gui.py
+   ```bash
+   cd Z-Transform-and-Inverse-Z-Transform-Graph-Plot-Maker
+   ```
+
+3. Run the Python script:
+
+   ```bash
+   python z_transform_gui.py
+   ```
+
 The GUI will open, allowing you to input Z-domain expressions and plot the corresponding Z-transform and inverse Z-transform.
 
-Usage
-Z-Transform:
-Enter a valid Z-domain expression (e.g., 1/(z - 0.5)).
+## Usage
+### Z-Transform:
+1. Enter a valid Z-domain expression (e.g., `1/(z - 0.5)`).
+2. Click the **"Plot Z-Transform"** button to generate the magnitude and phase plots of the Z-transform.
 
-Click the "Plot Z-Transform" button to generate the magnitude and phase plots of the Z-transform.
+### Inverse Z-Transform:
+1. Enter a valid Z-domain expression (e.g., `1/(z - 0.5)`).
+2. Click the **"Plot Inverse Z-Transform"** button to compute and plot the corresponding time-domain signal.
 
-Inverse Z-Transform:
-Enter a valid Z-domain expression (e.g., 1/(z - 0.5)).
+## Example
+For a simple Z-domain expression like `1/(z - 0.5)`, the tool will:
+- Compute the magnitude and phase of the Z-transform.
+- Compute the inverse Z-transform and plot the corresponding time-domain signal.
 
-Click the "Plot Inverse Z-Transform" button to compute and plot the corresponding time-domain signal.
-
-Example
-For a simple Z-domain expression like 1/(z - 0.5), the tool will:
-
-Compute the magnitude and phase of the Z-transform.
-
-Compute the inverse Z-transform and plot the corresponding time-domain signal.
-
-Contributing
+## Contributing
 Feel free to fork this repository and submit pull requests. If you encounter any issues or have suggestions for improvements, please open an issue.
 
-License
+## License
 This project is open-source and available under the MIT License. See the LICENSE file for more details.
 
-Contact
-For any questions or inquiries, please reach out to the repository owner at sanjjha093@gmail.com
-Made with :) by CertifiedSomebody ^-^
+## Contact
+For any questions or inquiries, please reach out to the repository owner at sanjjha093@gmail.com.
+
+Made with :) by **CertifiedSomebody** ^-^
